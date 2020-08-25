@@ -1,0 +1,6 @@
+C:\Chani\Chani&Chayale\angular\Klick\ApiClick1\api\bin\Debug\api.dll
+C:\Chani\Chani&Chayale\angular\Klick\ApiClick1\api\bin\Debug\api.pdb
+C:\Chani\Chani&Chayale\angular\Klick\ApiClick1\api\obj\Debug\api.csprojAssemblyReference.cache
+C:\Chani\Chani&Chayale\angular\Klick\ApiClick1\api\obj\Debug\api.csproj.CoreCompileInputs.cache
+C:\Chani\Chani&Chayale\angular\Klick\ApiClick1\api\obj\Debug\api.dll
+C:\Chani\Chani&Chayale\angular\Klick\ApiClick1\api\obj\Debug\api.pdb

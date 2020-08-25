@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuizTriviaModel1StoreContainer" CdmEntityContainer="QuizTriviaEntities1">
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="QuizTriviaModel1.Answer">
+        <MappingFragment StoreEntitySet="Answers">
+          <ScalarProperty Name="answerId" ColumnName="answerId" />
+          <ScalarProperty Name="questionId" ColumnName="questionId" />
+          <ScalarProperty Name="answerText" ColumnName="answerText" />
+          <ScalarProperty Name="isCorrect" ColumnName="isCorrect" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="QuizTriviaModel1.Question">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="questionId" ColumnName="questionId" />
+          <ScalarProperty Name="questionText" ColumnName="questionText" />
+          <ScalarProperty Name="isSurvey" ColumnName="isSurvey" />
+          <ScalarProperty Name="quizId" ColumnName="quizId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quizs">
+      <EntityTypeMapping TypeName="QuizTriviaModel1.Quiz">
+        <MappingFragment StoreEntitySet="Quiz">
+          <ScalarProperty Name="quizId" ColumnName="quizId" />
+          <ScalarProperty Name="quizName" ColumnName="quizName" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="QuizTriviaModel1.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="tz" ColumnName="tz" />
+          <ScalarProperty Name="fName" ColumnName="fName" />
+          <ScalarProperty Name="lName" ColumnName="lName" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pasword" ColumnName="pasword" />
+          <ScalarProperty Name="isRegistered" ColumnName="isRegistered" />
+          <ScalarProperty Name="dateRegistration" ColumnName="dateRegistration" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
