@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnswerBLL.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="ApiPhoneBLL.cs" />
     <Compile Include="Password.cs" />
     <Compile Include="Converts\AnswerConvert.cs" />
     <Compile Include="Converts\QuestionConvert.cs" />

@@ -19,8 +19,11 @@ namespace ApiClick1
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
-        protected void Application_BeginRequest()
+     public void Application_BeginRequest()
         {
+            //string request = Request.Url.AbsoluteUri;
+            //int answerToQuestion = int.Parse(request.Substring(request.Length - 1));
+
             Response.AddHeader("Access-Control-Allow-Origin", "*");
             Response.AddHeader("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE");
             Response.AddHeader("Access-Control-Allow-Headers", "Content-Type, Accept, Pragma, Cache-Control, Authorization ");

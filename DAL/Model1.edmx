@@ -250,7 +250,7 @@
           <End Role="Quiz" Type="Self.Quiz" Multiplicity="*" />
           <End Role="Users" Type="Self.User" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="QuizTriviaEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="QuizTriviaEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Answers" EntityType="Self.Answer" />
           <EntitySet Name="Questions" EntityType="Self.Question" />
           <EntitySet Name="Quizs" EntityType="Self.Quiz" />
@@ -278,7 +278,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="QuizTriviaModelStoreContainer" CdmEntityContainer="QuizTriviaEntities1">
+        <EntityContainerMapping StorageEntityContainer="QuizTriviaModelStoreContainer" CdmEntityContainer="QuizTriviaEntities">
           <EntitySetMapping Name="Answers">
             <EntityTypeMapping TypeName="QuizTriviaModel.Answer">
               <MappingFragment StoreEntitySet="Answers">

@@ -29,9 +29,9 @@ namespace ApiClick1.Controllers
 
         {
             if (AnswerBLL.deleteAnswer(idAnswer))
-                return Ok();
+                return Ok("true");
             else
-                return BadRequest();
+                return BadRequest("false");
 
 
 

@@ -10,8 +10,7 @@ using DTO;
 
 namespace ApiClick1.Controllers
 {
-    //קשור לסוגים שונים של api
-    //{//
+    
     [RoutePrefix("api/quizes")]
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class QuizController : ApiController

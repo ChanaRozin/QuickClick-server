@@ -96,7 +96,7 @@
     <End Role="Quiz" Type="Self.Quiz" Multiplicity="*" />
     <End Role="Users" Type="Self.User" Multiplicity="*" />
   </Association>
-  <EntityContainer Name="QuizTriviaEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="QuizTriviaEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Answers" EntityType="Self.Answer" />
     <EntitySet Name="Questions" EntityType="Self.Question" />
     <EntitySet Name="Quizs" EntityType="Self.Quiz" />

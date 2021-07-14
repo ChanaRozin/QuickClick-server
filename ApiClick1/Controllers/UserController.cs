@@ -72,15 +72,6 @@ namespace ApiClick1.Controllers
         }
         [Route("getUserById/{userId}")]
 
-        //public IHttpActionResult getUserById([FromUri]int userId)
-
-        //{
-        //    if (Password.SendMail(userId) == true)
-        //        return Ok();
-        //    else
-        //        return BadRequest();
-
-        //}
         [HttpGet]
         [Route("getAllPlayers/{idQuiz}")]
         public IHttpActionResult getAllPlayers([FromUri] int idQuiz)

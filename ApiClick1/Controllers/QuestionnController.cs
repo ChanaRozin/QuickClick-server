@@ -20,7 +20,7 @@ namespace ApiClick1.Controllers
         {
             DTO.DtoQuestion questionDto = QuestionBLL.addquestion(question);
 
-            if(questionDto!=null)
+            if (questionDto != null)
                 return Ok(questionDto);
             else
                 return BadRequest();//אולי להחזיר null
